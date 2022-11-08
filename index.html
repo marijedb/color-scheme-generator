@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme Generator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <input id="color-picker" class="color-picker" type="color" name="color-picker">
+            <select id="mode-selector" class="mode-selector" name="mode-selector">
+                <option value="">One</option>
+                <option value="">One</option>
+                <option value="">One</option>
+                <option value="">One</option>
+            </select>
+            <button class="btn-color" type="submit">Get color scheme</button>
+        </form>
+
+        <div id="color-scheme" class="color-scheme">
+            <div class="color-wrapper">
+                <div class="color seed-color"></div>
+                <div class="hex-value">#DDDDDD</div>
+            </div>
+            <div class="color-wrapper">
+                <div class="color color-two"></div>
+                <div class="hex-value">#FFFFFF</div>
+            </div>
+            <div class="color-wrapper">
+                <div class="color color-three"></div>
+                <div class="hex-value">#000000</div>
+            </div>
+            <div class="color-wrapper">
+                <div class="color color-four"></div>
+                <div class="hex-value">#DF238D</div>
+            </div>
+            <div class="color-wrapper">
+                <div class="color color-five"></div>
+                <div class="hex-value">#FFF555</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

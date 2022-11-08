@@ -1,0 +1,150 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+/****** FORM SECTION ******/
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    height: 5rem;
+    padding: 0 2%;
+}
+
+option {
+    background-color: #1F2937;
+}
+
+.color-picker {
+    background-color: #E5E5E5;
+    padding: 0;
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid #D1D5DB;
+    cursor: pointer;
+}
+
+.mode-selector {
+    background-color: transparent;
+    border: 1px solid #D1D5DB;
+    border-radius: 5px;
+    color: #D1D5DB;
+    font-family: 'Inter', sans-serif;
+    width: 50%;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.btn-color {
+    background-color: #3D4B60;
+    border: none;
+    border-radius: 5px;
+    color : #D5D4D8;
+    font-family: 'Inter', sans-serif;
+    font-size: .7rem;
+    padding: .5rem 1rem;
+    width: 30%;
+    cursor: pointer;
+}
+
+/****** COLOR SCHEME SECTION ******/
+
+.color-scheme {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.color-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 20%;
+}
+
+.color {
+    width: 70vw;
+}
+
+.hex-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937f9;
+    color: #D5D4D8;
+    font-size: .7rem;
+    width: 30vw;
+}
+
+
+/* can be removed once done through js 
+Just used as a placeholder */
+.seed-color {
+    background-color: #ff0000;
+}
+
+.color-two {
+    background-color: #cb8383;
+}
+
+.color-three {
+    background-color: #000000;
+}
+
+.color-four {
+    background-color: #420a0a;
+}
+
+.color-five {
+    background-color: #8d2424;
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .color-picker {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .mode-selector {
+        padding: .7rem;
+        height: auto;
+        width: 20rem;
+    }
+
+    .btn-color {
+        font-size: 1rem;
+        padding: .8rem 1rem;
+        width: 12rem;
+    }
+    
+    .color-scheme {
+        height: 480px;
+        flex-direction: row;
+    }
+
+    .color-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        height: 100%;
+    }
+
+    .color {
+        height: 90%;
+        width: 100%;
+    }
+
+    .hex-value {
+        background-color: #1F2937;
+        font-size: .9rem;
+        height: 10%;
+        width: 100%
+    }
+}
