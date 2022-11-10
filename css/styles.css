@@ -78,6 +78,7 @@ option {
     width: 30vw;
 }
 
+/* starting colors */
 .seed-color {
     background-color: #218CBA;
 }
@@ -97,6 +98,9 @@ option {
 .color5 {
     background-color: #3DAEDE;
 }
+
+
+/* MEDIA QUERIES */
 
 @media (min-width: 600px) {
     .container {
