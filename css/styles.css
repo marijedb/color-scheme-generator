@@ -3,6 +3,20 @@ body {
     margin: 0;
 }
 
+/****** HEADER SECTION ******/
+
+.header {
+    background-color: #1F2937;
+    color: #D5D4D8;
+    font-size: .8rem;
+    text-align: center;
+}
+
+h1 {
+    padding-top: .8rem;
+    margin: 0;
+}
+
 /****** FORM SECTION ******/
 
 form {
@@ -126,7 +140,7 @@ option {
     }
     
     .color-scheme {
-        height: 480px;
+        height: 430px;
         flex-direction: row;
     }
 
