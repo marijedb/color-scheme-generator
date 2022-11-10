@@ -78,27 +78,24 @@ option {
     width: 30vw;
 }
 
-
-/* can be removed once done through js 
-Just used as a placeholder */
 .seed-color {
-    background-color: #ff0000;
+    background-color: #218CBA;
 }
 
-.color-two {
-    background-color: #cb8383;
+.color2 {
+    background-color: #0F3A4D;
 }
 
-.color-three {
-    background-color: #000000;
+.color3 {
+    background-color: #186383;
 }
 
-.color-four {
-    background-color: #420a0a;
+.color4 {
+    background-color: #218CBA;
 }
 
-.color-five {
-    background-color: #8d2424;
+.color5 {
+    background-color: #3DAEDE;
 }
 
 @media (min-width: 600px) {
